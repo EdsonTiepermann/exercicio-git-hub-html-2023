@@ -1,6 +1,6 @@
-showNome()
+function showNome()
 {
-    let nome = document.getElementsById("nome")
-    document.alert(nome+"Cadastrado com sucesso!");
+        alert("Seu nome é: "+nome);
     
 }
+let nome = document.getElementById("nome").value;

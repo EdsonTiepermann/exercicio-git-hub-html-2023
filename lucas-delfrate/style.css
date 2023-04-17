@@ -54,14 +54,14 @@ form input{
     width: 230px;
 }
 .cadastrar{
-    left: 12%;
+    left: 0%;
     position: relative;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     border: 0%;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 4px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     margin-top: 20px;
     width: 235px;
     margin-bottom: 40px;

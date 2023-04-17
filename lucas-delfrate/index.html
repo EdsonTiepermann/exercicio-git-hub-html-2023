@@ -23,25 +23,12 @@
                 <label for="">
                     Nome:
                 </label>
-                <input type="text" id="nome">
+                <input type="text" id="nome" required placeholder="EX: Lucas">
+                <div>
+                    <input type="submit" class="cadastrar" onclick="showNome()" value="Mostrar nome">
+                </div>
             </div>
             <br>
-            <div class="label-input">
-                <label for="">
-                    E-mail:
-                </label>
-                <input type="email">
-            </div>
-            <br>
-            <div class="label-input">
-                <label for="">
-                    Senha:
-                </label>
-                <input type="password">
-            </div>
-            <div>
-                <input type="submit" class="cadastrar" onclick="showNome()" value="Cadastrar">
-            </div>
         </form>
     </section>
     <script src="scripts.js"></script>
