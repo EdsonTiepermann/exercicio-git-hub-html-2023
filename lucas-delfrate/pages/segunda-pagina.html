@@ -11,48 +11,60 @@
 
 <body>
     <header>
-        <div>
-            <h1 id="h1-header">
-                Curso Odonto
-            </h1>
+        <div class="titulo">
+            <a href="arquivo-principal.html">
+                <h1>Odonto Excellence</h1>
+            </a>
         </div>
-        <nav>
-            <div>
-                <a href="arquivo-principal.html">Home Page</a>
+        <div>
+            <nav>
+                <a href="arquivo-principal.html">Pagina 1</a>
+                <a href="segunda-pagina.html">Pagina 2</a>
+                <a href="terceira-pagina.html">Pagina 3</a>
+            </nav>
+        </div>
 
-            </div>
-            <div>
-                <a href="segunda-pagina.html">Segunda Página</a>
-            </div>
-            <div>
-                <a href="terceira-pagina.html">Terceira Página</a>
-            </div>
-        </nav>
     </header>
     <main>
-        <section id="lista">
-            <div>
-                <ol type="1" start="1">
-                    <li>
-                        <h1>TO DO:</h1>
-                    </li>
-                    <br>
-                    <div>
-                        <li>Estudar pra prova</li>
-                    </div>
+        <fieldset>
+            <details>
+                <summary>Páginas existentes</summary>
+                <ul>
+                    <li><a href="arquivo-principal.html">Página 1</a></li>
+                    <li><a href="segunda-pagina.html">Pagina 2</a></li>
+                    <li><a href="terceira-pagina.html">Pagina 3</a></li>
+                </ul>
+            </details>
+        </fieldset>
+        <fieldset>
+            <summary>Lista ordenada</summary><br>
+            <ol type="1" start="0">
+                <li>primeiro termo da lista</li>
+                <li>segundo termo da lista</li>
+                <li>terceiro termo da lista</li>
+                <li>quarto termo da lista</li>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <summary>Lista não ordenada</summary><br>
+            <ul>
+                <li>primeiro termo da lista</li>
+                <li>segundo termo da lista</li>
+                <li>terceiro termo da lista</li>
+                <li>quarto termo da lista</li>
+            </ul>
+        </fieldset>
 
-                    <div>
-                        <li>Lavar a louça</li>
-                    </div>
-                    <div>
-                        <li>Limpar a casa</li>
-                    </div>
-
-                </ol>
-            </div>
-        </section>
     </main>
-    <script src="../scripts.js"></script>
+    <div class="rodape">
+        <footer>
+            <address>
+                Contato: (99)999999 |
+                Nome: Joao da Silva |
+                Email: joaozinho@email.com |
+            </address>
+        </footer>
+    </div>
 </body>
 
 </html>
