@@ -1,0 +1,132 @@
+* {
+    padding: 0%;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+header {
+    background-color: red;
+    height: 60px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    text-align: end;
+}
+
+header nav {
+    position: absolute;
+    top: 20px;
+    right: 10%;
+
+
+}
+
+nav a:hover {
+    background-color: white;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    color: red;
+    font-size: 15px;
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: end;
+}
+
+.titulo {
+    height: 100%;
+    top: -2px;
+    position: relative;
+    left: 10px;
+    font-size: 13px;
+}
+
+body {
+    position: relative;
+    top: 70px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+main {
+    margin-left: 10px;
+}
+
+fieldset {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+article {
+    margin-left: 10px;
+}
+
+details {
+    display: flex;
+    margin-left: 10px;
+}
+
+details li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+details li {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+details li:hover {
+    color: white;
+    text-decoration: none;
+    background-color: red;
+
+}
+
+ol li {
+    margin-left: 15px;
+}
+
+ul li {
+    margin-left: 15px;
+}
+
+summary {
+    font-weight: bold;
+}
+
+footer {
+    margin-left: 15px;
+    bottom: 0%;
+    position: fixed;
+    color: rgb(95, 94, 94);
+}
+video{
+    width: 550px;
+}
+img{
+    width: 490px;
+}
+audio{
+    background-color: blue;
+}
+.rodape{
+    background-color: white;
+    height: 17px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
